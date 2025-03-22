@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <openssl/sha.h>
 
+
 // Constructor to initialize a Block with given transactions, previous hash, and difficulty level.
 Block::Block(std::vector<Transaction> transactions, std::string prevHash, int difficulty) {
     this->transactions = transactions;
